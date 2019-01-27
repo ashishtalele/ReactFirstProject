@@ -31,7 +31,7 @@ class Dashboard extends Component {
   };
   render() {
     return (
-      <div>
+      <Fragment>
         <h1> Dashboard contents Are here</h1> {this.props.name}
         <input
           type="text"
@@ -51,7 +51,7 @@ class Dashboard extends Component {
         <button type="button" onClick={this.handleOnApiData}>
           Make Request
         </button>
-      </div>
+      </Fragment>
     );
   }
 
